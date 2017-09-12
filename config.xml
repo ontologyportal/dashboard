@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config>
+	<corpusData>
+		<corpus>  
+			<color>red</color>
+			<label>CMUQA</label>
+			<name>CMUQA</name>
+		</corpus>
+		<corpus>  
+			<color>blue</color>
+			<label>Corpora2</label>
+			<name>Corpora2</name>
+		</corpus>
+	</corpusData>
+</config>
