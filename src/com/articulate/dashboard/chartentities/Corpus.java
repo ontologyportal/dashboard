@@ -2,36 +2,42 @@ package com.articulate.dashboard.chartentities;
 
 /**
  * This code is copyright Infosys Ltd 2017.
- * @author mohit.gupta
  *
+ * @author mohit.gupta
  */
 public class Corpus {
-	String name;
-	String label;
-	String color;
+    String name;
+    String label;
+    String color;
 
-	public String getName() {
-		return name;
-	}
+    public String getName() {
 
-	public void setName(String name) {
-		this.name = name;
-	}
+        return name;
+    }
 
-	public String getLabel() {
-		return label;
-	}
+    public void setName(String name) {
 
-	public void setLabel(String label) {
-		this.label = label;
-	}
+        this.name = name;
+    }
 
-	public String getColor() {
-		return color;
-	}
+    public String getLabel() {
 
-	public void setColor(String color) {
-		this.color = color;
-	}
+        return label;
+    }
+
+    public void setLabel(String label) {
+
+        this.label = label;
+    }
+
+    public String getColor() {
+
+        return color;
+    }
+
+    public void setColor(String color) {
+
+        this.color = color;
+    }
 
 }

@@ -2,27 +2,31 @@ package com.articulate.dashboard.chartentities;
 
 /**
  * This code is copyright Infosys Ltd 2017.
- * @author mohit.gupta
  *
+ * @author mohit.gupta
  */
 public class Axes {
-	Tick ticks = new Tick();
-	ScaleLabel scaleLabel = new ScaleLabel();
+    Tick ticks = new Tick();
+    ScaleLabel scaleLabel = new ScaleLabel();
 
-	public Tick getTicks() {
-		return ticks;
-	}
+    public Tick getTicks() {
 
-	public void setTicks(Tick ticks) {
-		this.ticks = ticks;
-	}
+        return ticks;
+    }
 
-	public ScaleLabel getScaleLabel() {
-		return scaleLabel;
-	}
+    public void setTicks(Tick ticks) {
 
-	public void setScaleLabel(ScaleLabel scaleLabel) {
-		this.scaleLabel = scaleLabel;
-	}
+        this.ticks = ticks;
+    }
+
+    public ScaleLabel getScaleLabel() {
+
+        return scaleLabel;
+    }
+
+    public void setScaleLabel(ScaleLabel scaleLabel) {
+
+        this.scaleLabel = scaleLabel;
+    }
 
 }
